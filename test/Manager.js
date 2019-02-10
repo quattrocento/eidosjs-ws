@@ -1,7 +1,7 @@
 import assert from "assert";
 import { Manager, Apis } from "../lib";
 
-var defaultUrl = "wss://eu.nodes.bitshares.ws";
+var defaultUrl = "ws://dex.eidos.one:8000";
 
 var faultyNodeList = [
     {url: "wss://bitsqsdqsdhares.openledger.info/ws", location: "Nuremberg, Germany"},
